@@ -3,7 +3,7 @@ jdk:
         -openjdk11
 addons:
     sonarcloud:
-        organization: kevinMoreland
+        organization: kevinmoreland
         token: 0b548ffe0a27f7ccd53fc1e46073bc3055b2c61d
 script: 
 -ant build
