@@ -1,4 +1,10 @@
 language: java
 jdk:
         -openjdk11
-script: ant build
+addons:
+    sonarcloud:
+        organization: kevinMoreland
+        token: 0b548ffe0a27f7ccd53fc1e46073bc3055b2c61d
+script: 
+-ant build
+-sonar-scanner
